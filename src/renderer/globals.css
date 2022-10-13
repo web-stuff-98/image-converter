@@ -1,0 +1,22 @@
+:root {
+    background: whitesmoke;
+
+    --padding-base: min(0.5pc, 1vw);
+
+    --border-base: 1px solid black;
+    --border-dashed-base: 1px dashed black;
+
+    --border-light: 1px solid rgba(0,0,0,0.5);
+    --border-dashed-light: 1px dashed rgba(0,0,0,0.5);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    font-size: min(2.5vw, 0.666pc);
+    font-family: monospace;
+}
